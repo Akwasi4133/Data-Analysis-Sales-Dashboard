@@ -1,8 +1,6 @@
 
 # Maven Store Data Analysis (Interactive Dashboard created using Power BI)
 
-# Driving Strategic Growth with Power BI Analysis
-
 ## Project Overview
 
 This recent Power BI-driven analysis has provided actionable insights into revenue trends, product performance across various regions, and the strengths of specific store locations. This analysis offers a foundation for strategic decisions that can drive profitability and optimize operations. Here’s a summary of the main insights:
