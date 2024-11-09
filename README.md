@@ -8,12 +8,14 @@ This recent Power BI-driven analysis has provided actionable insights into reven
 ## Data Used 
 <a href =“https://www.kaggle.com/datasets/tanvir25/maven-toys?select=MavenToys”>Dataset<a/>
 
+## Tools Used
+
 ## Recommended Analysis
-. Identifying profit-driving product categories across store locations.
-. Which stores are the most profitable, and how can this guide store expansion decisions?
-. Unveiling seasonal trends or patterns in sales data.
-. Investigating sales impact due to out-of-stock products.
-. Evaluating inventory investment and duration. 
+- Identifying profit-driving product categories across store locations.
+- Which stores are the most profitable, and how can this guide store expansion decisions?
+- Unveiling seasonal trends or patterns in sales data.
+- Investigating sales impact due to out-of-stock products.
+- Evaluating inventory investment and duration. 
 
 ## Methodology
 This Power BI analysis workflow starts with importing and cleaning CSV data, then shaping it in Power Query to prepare for modeling. Relevant relationships between tables are established, and DAX calculations are created to define essential metrics like revenue and profit. Visuals, such as bar charts and line graphs, along with dynamic filters, are added to explore trends by product category, region, and time period. Finally, the report is published in Power BI Service, allowing stakeholders to interact with insights and make informed strategic decisions
