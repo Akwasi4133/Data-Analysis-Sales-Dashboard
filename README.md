@@ -10,7 +10,20 @@ This recent Power BI-driven analysis has provided actionable insights into reven
 
 ## Tools Used
 - Power BI
-  
+
+## Methodology
+#### Data Cleaning/Preparation 
+- This Power BI analysis workflow started with:
+  - Removing Duplicates: Identifying and deleting duplicate entries to preserve the accuracy and uniqueness of the data.
+  - Filtering Rows: Applying filters to remove any rows that don’t meet specified criteria, such as rows with null values or zeros, to focus only on relevant  data.
+  - Splitting Columns: Separating data in a single column into multiple columns using delimiters.
+  - Merging Columns: Combining data from multiple columns into a single column when necessary, such as combining first and last names to create a full name field.
+  - Handling Null Values: Managing missing data by replacing and deleting nulls to avoid errors in calculations and maintain report accuracy.
+
+
+    then shaping it in Power Query to prepare for modeling. Relevant relationships between tables are established, and DAX calculations are created to define essential metrics like revenue and profit. Visuals, such as bar charts and line graphs, along with dynamic filters, are added to explore trends by product category, region, and time period. Finally, the report is published in Power BI Service, allowing stakeholders to interact with insights and make informed strategic decisions
+
+
 ## Recommended Analysis
 - Identifying profit-driving product categories across store locations.
 - Which stores are the most profitable, and how can this guide store expansion decisions?
@@ -18,8 +31,6 @@ This recent Power BI-driven analysis has provided actionable insights into reven
 - Investigating sales impact due to out-of-stock products.
 - Evaluating inventory investment and duration. 
 
-## Methodology
-This Power BI analysis workflow starts with importing and cleaning CSV data, then shaping it in Power Query to prepare for modeling. Relevant relationships between tables are established, and DAX calculations are created to define essential metrics like revenue and profit. Visuals, such as bar charts and line graphs, along with dynamic filters, are added to explore trends by product category, region, and time period. Finally, the report is published in Power BI Service, allowing stakeholders to interact with insights and make informed strategic decisions
 
 ## Key Insights:
 - Top-Performing Location: The Downtown area stands out as the leading revenue generator, contributing $8.22M in sales and $2.25M in profit across 29 stores, highlighting the value of prime locations.
