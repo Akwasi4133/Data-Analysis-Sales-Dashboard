@@ -2,13 +2,13 @@
 # Maven Toys Store Data Analysis (Interactive Dashboard created using Power BI)
 
 ## Table of Content
- - [Project Overview](Project-Overview)
- - [Data Used](Project-Overview)
- - [Tools Used](Project-Overview)
- - [Methodology](Project-Overview)
- - [Recommended Analysis](Project-Overview)
- - [Key Insights](Project-Overview)
- - [Strategic Recommendation](Project-Overview)
+ - [Project Overview](#project-Overview)
+ - [Data Used](#data-used)
+ - [Tools Used](#tools-used)
+ - [Methodology](#methodology)
+ - [Recommended Analysis](#recommended-analysis)
+ - [Key Insights](#key-insights)
+ - [Strategic Recommendation](#strategic-recommendation)
    
 ## Project Overview
 
