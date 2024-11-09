@@ -1,6 +1,15 @@
 
 # Maven Toys Store Data Analysis (Interactive Dashboard created using Power BI)
 
+## Table of Content
+ - [Project Overview](Project-Overview)
+ - [Data Used](Project-Overview)
+ - [Tools Used](Project-Overview)
+ - [Methodology](Project-Overview)
+ - [Recommended Analysis](Project-Overview)
+ - [Key Insights](Project-Overview)
+ - [Strategic Recommendation](Project-Overview)
+   
 ## Project Overview
 
 This recent Power BI-driven analysis has provided actionable insights into revenue trends, product performance across various regions, and the strengths of specific store locations. This analysis offers a foundation for strategic decisions that can drive profitability and optimize operations. Here’s a summary of the main insights:
@@ -41,6 +50,7 @@ RETURN Display
     RETURN IF(Ranking <= 'Top N Parameter'[Top N Parameter Value], 'Profit Measures'[Profit])
 
       - YOY Growth Revenue = DIVIDE('Revenue Measures'[Revenue] - 'Revenue Measures'[Revenue SPLY], 'Revenue Measures'[Revenue SPLY])
+        
 #### Data Visualization 
 -  Visuals, such as bar charts and line graphs, along with dynamic filters, are added to explore trends by product category, region, and time period. Finally, the report is published in Power BI Service, allowing stakeholders to interact with insights and make informed strategic decisions
 
