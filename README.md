@@ -32,7 +32,7 @@ This Power BI analysis workflow starts with importing and cleaning CSV data, the
 
 - Seasonal Sales Patterns: December emerged as the top month for revenue, with $877K in sales, demonstrating a strong opportunity for targeted seasonal promotions and inventory planning.
 
--Stock on Hand vs Profit had zero correlation as having high or low stock does not correlate with high or low profit.
+- Stock on Hand vs Profit had zero correlation as having high or low stock does not correlate with high or low profit.
 
 
 ## Strategic Recommendations:
