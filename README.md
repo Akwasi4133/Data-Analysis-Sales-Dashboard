@@ -15,6 +15,7 @@
 This recent Power BI-driven analysis has provided actionable insights into revenue trends, product performance across various regions, and the strengths of specific store locations. This analysis offers a foundation for strategic decisions that can drive profitability and optimize operations. Here’s a summary of the main insights:
 
 ## Data Used 
+[Dataset](https://www.kaggle.com/datasets/tanvir25/maven-toys?select=MavenToys)
 <a href =“https://www.kaggle.com/datasets/tanvir25/maven-toys?select=MavenToys”>Dataset<a/>
 
 ## Tools Used
