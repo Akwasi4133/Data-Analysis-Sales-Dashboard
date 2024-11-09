@@ -15,8 +15,8 @@
 This recent Power BI-driven analysis has provided actionable insights into revenue trends, product performance across various regions, and the strengths of specific store locations. This analysis offers a foundation for strategic decisions that can drive profitability and optimize operations. Here’s a summary of the main insights:
 
 ## Data Used 
-[Dataset](https://www.kaggle.com/datasets/tanvir25/maven-toys?select=MavenToys)
-<a href =“https://www.kaggle.com/datasets/tanvir25/maven-toys?select=MavenToys”>Dataset<a/>
+[Download Dataset Here](https://www.kaggle.com/datasets/tanvir25/maven-toys?select=MavenToys)
+
 
 ## Tools Used
 - Power BI
@@ -92,4 +92,5 @@ To support continued revenue growth, Maven should focus on ensuring optimal inve
 ![Store Performance](https://github.com/user-attachments/assets/92b4fc64-1cd8-4fe3-b367-a0df5cc40787)
 
 ## Dashboard Dynamic Preview 
-<a href=”https://app.powerbi.com/view?r=eyJrIjoiYWEwNjRhZTMtNDNjYi00ZmVjLWExM2YtNDA0ZmI2NjNlMzRkIiwidCI6IjNlOTQzNDlkLWUyYTgtNGY2YS05MGExLWE2NGJjOGUwYTc4ZCJ9”> View Dashboard </a>
+[Click here to access my dashboard](https://app.powerbi.com/view?r=eyJrIjoiYWEwNjRhZTMtNDNjYi00ZmVjLWExM2YtNDA0ZmI2NjNlMzRkIiwidCI6IjNlOTQzNDlkLWUyYTgtNGY2YS05MGExLWE2NGJjOGUwYTc4ZCJ9)
+
