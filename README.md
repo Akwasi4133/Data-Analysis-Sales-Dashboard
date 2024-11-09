@@ -1,5 +1,5 @@
 
-# Maven Store Data Analysis (Interactive Dashboard created using Power BI)
+# Maven Toys Store Data Analysis (Interactive Dashboard created using Power BI)
 
 ## Project Overview
 
