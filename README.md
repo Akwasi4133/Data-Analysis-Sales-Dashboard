@@ -27,8 +27,20 @@ This recent Power BI-driven analysis has provided actionable insights into reven
 -  DAX calculations are created to define essential metrics like revenue and profit.
 
     - Key Codes
-       - 
+       - YOY Trend Icon Profit = 
+VAR PositiveIcon = UNICHAR(9650)
+VAR NegativeIcon = UNICHAR(9660)
+VAR Choice = IF('Profit Measures'[YOY Growth Profit] > 0, PositiveIcon, NegativeIcon)
+VAR Display = Choice & " " & FORMAT([YOY Growth Profit],"0.00%")
+RETURN Display
 
+      - Rank Category By Profit = 
+    VAR topcategorybyprofit = IF(ISINSCOPE(Products[Product_Category]),(RANKX(ALL(Products[Product_Category]),'Profit Measures'[Profit],,ASC)))
+    VAR bottomcategorybyprofit = IF(ISINSCOPE(Products[Product_Category]),(RANKX(ALL(Products[Product_Category]),'Profit Measures'[Profit],,DESC)))
+    VAR Ranking = IF(SELECTEDVALUE(TopBottom[Value]) = "Top", topcategorybyprofit, bottomcategorybyprofit)
+    RETURN IF(Ranking <= 'Top N Parameter'[Top N Parameter Value], 'Profit Measures'[Profit])
+
+      - YOY Growth Revenue = DIVIDE('Revenue Measures'[Revenue] - 'Revenue Measures'[Revenue SPLY], 'Revenue Measures'[Revenue SPLY])
 #### Data Visualization 
 -  Visuals, such as bar charts and line graphs, along with dynamic filters, are added to explore trends by product category, region, and time period. Finally, the report is published in Power BI Service, allowing stakeholders to interact with insights and make informed strategic decisions
 
