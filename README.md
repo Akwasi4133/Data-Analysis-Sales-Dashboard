@@ -20,8 +20,17 @@ This recent Power BI-driven analysis has provided actionable insights into reven
   - Merging Columns: Combining data from multiple columns into a single column when necessary, such as combining first and last names to create a full name field.
   - Handling Null Values: Managing missing data by replacing and deleting nulls to avoid errors in calculations and maintain report accuracy.
 
+#### Data Modeling
+- Define Relationships: Relevant relationships between tables based on key fields (primary and foreign keys) were created to ensure accurate joins.
 
-    then shaping it in Power Query to prepare for modeling. Relevant relationships between tables are established, and DAX calculations are created to define essential metrics like revenue and profit. Visuals, such as bar charts and line graphs, along with dynamic filters, are added to explore trends by product category, region, and time period. Finally, the report is published in Power BI Service, allowing stakeholders to interact with insights and make informed strategic decisions
+#### DAX (Data Analysis Expressions)
+-  DAX calculations are created to define essential metrics like revenue and profit.
+
+    - Key Codes
+       - 
+
+#### Data Visualization 
+-  Visuals, such as bar charts and line graphs, along with dynamic filters, are added to explore trends by product category, region, and time period. Finally, the report is published in Power BI Service, allowing stakeholders to interact with insights and make informed strategic decisions
 
 
 ## Recommended Analysis
