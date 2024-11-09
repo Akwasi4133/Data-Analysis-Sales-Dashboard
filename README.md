@@ -9,7 +9,8 @@ This recent Power BI-driven analysis has provided actionable insights into reven
 <a href =“https://www.kaggle.com/datasets/tanvir25/maven-toys?select=MavenToys”>Dataset<a/>
 
 ## Tools Used
-
+- Power BI
+  
 ## Recommended Analysis
 - Identifying profit-driving product categories across store locations.
 - Which stores are the most profitable, and how can this guide store expansion decisions?
